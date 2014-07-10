@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <title>tagr</title>
@@ -10,6 +11,22 @@
   color: #222;
   background-color: #f7f7f7;
   font-size: 100%;
+}
+
+#bg {
+  background-color: #1f304e;
+  background-image: url('http://wallpapers.wallbase.cc/high-resolution/wallpaper-1794062.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 .slide {
@@ -428,6 +445,7 @@ em {
   </style>
 </head>
 <body>
+  <div id="bg"></div> 
     <div class="progress">
     <div class="progress-bar"></div>
   </div>
@@ -454,7 +472,7 @@ em {
   </div>
   <div class="slide hidden" id="slide-4">
     <section class="slide-content"><div class="author">
-  <h1 class="name">i'm Dag</h1>
+  <h1 class="name">i'm dag</h1>
   <h2>find me here...</h2>
 <h2> <a href="http://twitter.com/@dagbro">@dagbro</a> </h2>
 <h2> <a href="http://cozma.github.io/tagr">tagr.tk</a> </h2>
